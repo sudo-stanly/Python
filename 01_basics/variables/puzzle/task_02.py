@@ -14,3 +14,15 @@
 #[SECRET NUMBER PUZZLE]: You have three variables holding numbers as strings. Rearrange and combine them to make a meaningful number. Your task: rearrange and combine so it prints:  "102457"
     # n1, n2, n3 = "45", "7", "102"
     # print(f"{n3}{n1}{n2}")
+
+#[VARIABLE CONATENATION]
+    # a,b,c='Good','morning','Everyone'
+    # print(f"{a} {b} {c}!")
+    
+#[VARIABLE CALCULATION]
+    # a,b,c=10,5,2
+    # print((a+b)*c)
+    
+#[STRING INDEXING]
+word = "Programming"; lr1 = word[:1]; lr2=word[5]; lr3 = word[10]
+print(f"{lr1} {lr2} {lr3}")
