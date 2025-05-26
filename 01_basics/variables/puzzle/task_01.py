@@ -13,6 +13,7 @@
     # print(f"{w1} {p2} {w2} {p3}")
     
 #[SECRET SWAP]: You have two variables holding numbers. Swap their values without using a temporary variable. Then print both variables.
-a,b = 5, 10
-a , b = b, a
-print(f"{a}\n{b}")
+    # a,b = 5, 10
+    # a , b = b, a
+    # print(f"{a}\n{b}")
+    
