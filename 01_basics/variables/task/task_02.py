@@ -20,8 +20,7 @@
 #[RESTAURANT BILL SPLITTER]: Total bill, Tip percentage, Number of people.
 #Formula: total_with_tip = bill + (bill * tip/100)
 #Formula: each = total_with_tip / people
-
-x,y,z=int(input("Total bill: $")), int(input("Tip percentage: $")), int(input("Number of people: "));
-total_with_tip = x + (x * y/100)
-each = total_with_tip / z
-print(f"Each person pays: ${round(each, 2)}")
+    # x,y,z=int(input("Total bill: $")), int(input("Tip percentage: $")), int(input("Number of people: "));
+    # total_with_tip = x + (x * y/100)
+    # each = total_with_tip / z
+    # print(f"Each person pays: ${round(each, 2)}")
