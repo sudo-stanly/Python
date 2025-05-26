@@ -24,5 +24,5 @@
     # print((a+b)*c)
     
 #[STRING INDEXING]
-word = "Programming"; lr1 = word[:1]; lr2=word[5]; lr3 = word[10]
-print(f"{lr1} {lr2} {lr3}")
+    # word = "Programming"; lr1 = word[:1]; lr2=word[5]; lr3 = word[10]
+    # print(f"{lr1} {lr2} {lr3}")
