@@ -47,3 +47,22 @@
     # txt="Lorem\t ipsum dolor\t sit\t amet\t consectetur,\t adipisicing elit." 
     # t = txt.expandtabs(3)
     # print(t)
+    
+#[FIND]: find(<string>) : Searches the string for a specified value and returns the position of where it was found
+    # txt="Lorem ipsum dolor sit amet consectetur, adipisicing elit." 
+    # x=txt.find("amet consectetur")
+    # print(x)
+    
+#[FORMAT] format() : Formats specified values in a string
+    #Insert the price inside the placeholder, the price should be in fixed point, two-decimal format:
+        # txt = "For only {price:.2f} dollars!"
+        # print(txt.format(price = 49))
+        
+        # txt="You need atleast ${price:.2f}."
+        # format_txt = txt.format(price=1300)
+        # print(format_txt)
+        
+        # txt="The user is {isActive}."
+        # format_txt = txt.format(isActive=True)
+        # print(format_txt)
+        
