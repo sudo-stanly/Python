@@ -66,3 +66,21 @@
         # format_txt = txt.format(isActive=True)
         # print(format_txt)
         
+#[FORMAT MAP]: format_map() : 	Formats specified values in a string
+        
+        # not a format type
+        # txt = "The price of this apple is ${price:.2f}"
+        # x=txt.format_map(price=50)
+        # print(x)
+
+        # format map is a dictionary type or with a dict data type
+        # txt="the price is {price}" #specified type int
+        # x=txt.format_map({"price":50}) #will print as 50
+        # print(x)
+        
+            #:.2f will cause type error if dict value is an int
+            
+
+        
+        
+        
