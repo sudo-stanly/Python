@@ -79,8 +79,28 @@
         # print(x)
         
             #:.2f will cause type error if dict value is an int
-            
+
+
+#[INDEX]: index(<string>) : Searches the string for a specified value and returns the position of where it was found. (similar to find() method)
+    # txt = "Hello, world!"
+    # x=txt.index("world")
+    # print(x)
 
         
-        
-        
+#[IS ALPHA NUMERIC]: isalnum() : Returns True if all characters in the string are alphanumeric
+    # x="11A aa" #false because it contains space and must only include a number, unique character and a capital
+    # x="11Aaa" -> correct
+    # if(x.isalnum()):
+    #     print(True)
+    # else:
+    #     print(False)  
+    
+#[IS APLHA]:  isalpha()  : Returns True if all characters in the string are in the alphabet.
+    # x="aaAAXXyy"
+    # x="aaAAXXyy11" #false because it contains a numeric value.
+    # if(x.isalpha()):
+    #     print(True)    
+    # else:
+    #     print(False)
+    
+#[IS ASCII]: isascii() : Returns True if all characters in the string are ascii characters
