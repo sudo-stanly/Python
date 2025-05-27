@@ -5,9 +5,11 @@
     
 #[CASE FOLD]: casefold() : 	Converts string into lower case
     # txt="HELLO, world!"; print(txt.casefold())
+    # txt="SUZU IS THE BEST!"; print(txt.casefold())
     
 #[CENTER]: center(<position index>) : Returns a centered string
     # txt="HELLO, world!"; print(txt.center(55))
+    # txt="i like pizza!"; print(txt.center(55))
     
 #[COUNT]: count()	: Returns the number of times a specified value occurs in a string
     # txt="I love apples, apple are my favourite fruit"
@@ -24,3 +26,24 @@
         #value  :  REQUIRED: A string. The string to value to search for.
         #start  :  OPTIONAL: The position to start the search. Default 0
         #end    :  OPTIONAL: An integer. The position to end the search. Default is the end of the string
+        
+        #txt = "this is a message about an important message about messages."; l = len(txt); x = txt.count("message", 0 , l); print(x)
+
+#[ENCODE]: encode() : Returns an ecoded verion of the string.
+    # txt = "this is an encoded message."
+    # x= txt.encode()
+    # print(x)
+    
+    # txt="encoded msg";
+    # x=txt.encode()
+    # print(x)
+    
+#[ENDSWITH]: endswith() : Returns true if the string ends with the specified value
+    # txt="Lorem ipsum dolor sit amet consectetur, adipisicing elit." 
+    # e=txt.endswith(".")
+    # print(e)
+    
+#[EXPAND TABS]: expandtabds(<tab size>) : sets the tab size of a string
+    # txt="Lorem\t ipsum dolor\t sit\t amet\t consectetur,\t adipisicing elit." 
+    # t = txt.expandtabs(3)
+    # print(t)
