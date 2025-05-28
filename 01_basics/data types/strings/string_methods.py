@@ -104,3 +104,30 @@
     #     print(False)
     
 #[IS ASCII]: isascii() : Returns True if all characters in the string are ascii characters
+    # txt="A" # A has the ascii value of 65
+    # if(txt.isascii()):
+    #     print(True)    
+    # else:
+    #     print(False)
+    
+# [IS DECIMAL] isdecimal(): Returns True if all characters in the string are decimals
+    # txt="123"
+    # if(txt.isdecimal()):
+    #     print(True)    
+    # else:
+    #     print(False)
+    
+# [IS DIGIT] isdigit(): Returns True if all characters in the string are digits
+    # txt="50800"
+    # if(txt.isdigit()):
+    #     print(True)    
+    # else:
+    #     print(False)
+    
+#[IS PRINTABLE]: isprintable() : Returns True if all characters in the string are digits
+    # txt="Hello! are you #1"
+    # if(txt.isprintable()):
+    #     print(True)    
+    # else:
+    #     print(False)
+    
