@@ -180,3 +180,24 @@
     # x = txt.lstrip()
     # print("of all the fruits there is", x , "is my favourite")
     
+#[MAKE TRANSLATION]: maketrans() : Returns a translation table to be used in translations
+    #Create a mapping table, and use it in the translate() method to replace any "S" characters with a "P" character:
+        # translation = {"Masaru": "マサル"}
+        # txt = "My name is Masaru"
+        # translated_txt = " ".join(translation.get(word, word) for word in txt.split())
+        # print(translated_txt)
+        
+
+#[PARTITION]: partition() : Returns a tuple where the string is parted into three parts
+    #search for the word "apples", and return a tuple with three eleemnts
+        # 1. everything before the "match", 2. the "match" 3. everything after the "match"
+            # txt="I could eat apples all day"
+            # x=txt.partition("apples")
+            # print(x)
+            
+# [REPLACE]: replace(<string>, <string to replace>) : Returns a string where a specified value is replaced with a specified value
+    # txt = "I like bananas"
+    # x = txt.replace("bananas", "apples")
+    # print(x)
+    
+    
