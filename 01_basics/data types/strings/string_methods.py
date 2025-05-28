@@ -247,4 +247,28 @@
     # print(x)
     
     
- 
+#[STRIP]: strip() : 	Returns a trimmed version of the string
+    # txt = "     apple     "
+    # x = txt.strip()
+    # print("of all fruits", x, "is my favorite")
+
+#[SWAP CASE]: swapcase() : Make the lower case letters upper case and the upper case letters lower case:
+    # txt="Hello, world!"
+    # x=txt.swapcase()
+    # print(x)
+    
+#[TITLE]: title() : 	Converts the first character of each word to upper case
+    # txt="hello, world!"
+    # x=txt.title()
+    # print(x)
+    
+#[UPPER]: upper() :	Converts a string into upper case
+    # txt="hello, world!"
+    # x=txt.upper()
+    # print(x)
+    
+#[ZERO FILL]: zfill(<int>) : 	Fills the string with a specified number of 0 values at the beginning
+    # txt="50"
+    # x=txt.zfill(10)
+    # print(x)
+    
