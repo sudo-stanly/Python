@@ -170,4 +170,13 @@
     # x = txt.ljust(20)
     # print(x, "my name is Masaru!")
     
+#[LOWER]: lower() : Converts a string into lower case
+    # txt= "hello, world"
+    # x = txt.islower()
+    # print(x)
+    
+#[LEFT STRIP]: lstrip() : Returns a left trim version of the string : Remove spaces to the left of the string:
+    # txt="apple"
+    # x = txt.lstrip()
+    # print("of all the fruits there is", x , "is my favourite")
     
