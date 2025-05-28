@@ -131,3 +131,18 @@
     # else:
     #     print(False)
     
+#[IS SPACE]: isspace() : 	Returns True if all characters in the string are whitespaces
+    # txt="                  "
+    # if(txt.isspace()):
+    #     print(True)    
+    # else:
+    #     print(False)
+    
+#[IS TITLE]: istitle() : Returns True if the string follows the rules of a title
+    # txt = "Hello, And Welcome To My World!"
+    # if(txt.istitle()):
+    #     print(True)    
+    # else:
+    #     print(False)
+    
+    
