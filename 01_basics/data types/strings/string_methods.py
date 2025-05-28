@@ -188,7 +188,7 @@
         # print(translated_txt)
         
 
-#[PARTITION]: partition() : Returns a tuple where the string is parted into three parts
+#[PARTITION]: partition(<strign>) : Returns a tuple where the string is parted into three parts
     #search for the word "apples", and return a tuple with three eleemnts
         # 1. everything before the "match", 2. the "match" 3. everything after the "match"
             # txt="I could eat apples all day"
@@ -201,3 +201,50 @@
     # print(x)
     
     
+#[RIGHT FIND]: rfind(<string>) : Searches the string for a specified value and returns the last position of where it was found (right)
+    # txt="Hello, world!"
+    # x=txt.rfind("world")
+    # print(x)
+    
+#[RIGHT INDEX]: rindex(<string>) : Searches the string for a specified value and returns the last position of where it was found
+    # txt="Hello, world!"
+    # x=txt.rindex("world")
+    # print(x)
+    
+#[RIGHT JUSTIFIED] : rjust(<position index>) : Returns a right justified version of the string
+    # txt="Hello, world!"
+    # x=txt.rjust(20)
+    # print(x)
+    
+#[RIGHT PARTITION]: rpartion(<string>) :	Returns a tuple where the string is parted into three parts
+    # txt="I am a box of scraps."
+    # x=txt.partition("of")
+    # print(x)
+    
+#[RIGHT SPLIT]: rsplit(<string>) : 	Splits the string at the specified separator, and returns a list
+    # txt="Hello, world."
+    # x=txt.rsplit(",")
+    # print(x)
+    
+#[RIGHT STRIP]: rstrip() : Returns a right trim version of the string
+    # txt="Hello, world."
+    # x=txt.rstrip(",")
+    # print(x)
+    
+#[SPLIT]: split() : 	Splits the string at the specified separator, and returns a list
+    # txt="Welcome to the jungle."
+    # x=txt.split()
+    # print(x)
+
+#[SPLIT LINES]: splitlines() : 	Splits the string at line breaks and returns a list
+    # txt="Thank you for the music\nWelcome to the jungle."
+    # x=txt.splitlines()
+    # print(x)
+    
+#[STARTS WITH]: startswith(<string>) : Returns true if the string starts with the specified value
+    # txt="Hello, world!"
+    # x=txt.startswith("Hello")
+    # print(x)
+    
+    
+ 
