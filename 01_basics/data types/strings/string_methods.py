@@ -165,4 +165,9 @@
         # print(j) 
         
     
+#[LEFT JUSTIFIED]: ljust(<position index>) : 	Returns a left justified version of the string
+    # txt= "Hello, world"
+    # x = txt.ljust(20)
+    # print(x, "my name is Masaru!")
+    
     
