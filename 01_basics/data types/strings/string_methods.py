@@ -11,7 +11,7 @@
     # txt="HELLO, world!"; print(txt.center(55))
     # txt="i like pizza!"; print(txt.center(55))
     
-#[COUNT]: count()	: Returns the number of times a specified value occurs in a string
+#[COUNT]: count(<string>)	: Returns the number of times a specified value occurs in a string
     # txt="I love apples, apple are my favourite fruit"
     # x= txt.count("apple")
     # print(x)
@@ -38,7 +38,7 @@
     # x=txt.encode()
     # print(x)
     
-#[ENDSWITH]: endswith() : Returns true if the string ends with the specified value
+#[ENDSWITH]: endswith(<string>) : Returns true if the string ends with the specified value
     # txt="Lorem ipsum dolor sit amet consectetur, adipisicing elit." 
     # e=txt.endswith(".")
     # print(e)
@@ -53,7 +53,7 @@
     # x=txt.find("amet consectetur")
     # print(x)
     
-#[FORMAT] format() : Formats specified values in a string
+#[FORMAT] format(<variable & value>) : Formats specified values in a string
     #Insert the price inside the placeholder, the price should be in fixed point, two-decimal format:
         # txt = "For only {price:.2f} dollars!"
         # print(txt.format(price = 49))
@@ -66,7 +66,7 @@
         # format_txt = txt.format(isActive=True)
         # print(format_txt)
         
-#[FORMAT MAP]: format_map() : 	Formats specified values in a string
+#[FORMAT MAP]: format_map(<dict>) : 	Formats specified values in a string
         
         # not a format type
         # txt = "The price of this apple is ${price:.2f}"
@@ -144,5 +144,25 @@
     #     print(True)    
     # else:
     #     print(False)
+    
+#[IS UPPER]: isupper() : Returns True if all characters in the string are upper case
+    # txt = "HELLO WORLD!"
+    # if(txt.isupper()):
+    #     print(True)    
+    # else:
+    #     print(False)
+    
+#[JOIN]: <string>.join(<variable>) : Joins the elements of an iterable to the end of the string
+
+    #[example 1]:
+        # x=["Hello", "world"]
+        # j = "::".join(x)
+        # print(j)
+        
+    #[example 2]: includes a number in list
+        # x=["Hello", "world" , 32]
+        # j = "::".join(str(y) for y in x) #y converted to string will turn all in x to string.
+        # print(j) 
+        
     
     
