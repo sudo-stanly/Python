@@ -27,3 +27,8 @@
     # l6=["LOUD", "Loud", "up", "UP", ""]
     # r6=list(map(str.isupper, l6))
     # print(r6)
+    
+#titlecase
+    # l7=["Star Wars", "the Empire Strikes Back", "Return Of The Jedi", "A New Hope", ""]
+    # r7=list(map(str.istitle, l7))
+    # print(r7)
