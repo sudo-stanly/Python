@@ -17,3 +17,8 @@
     # l4=["123", "٧٨٩", "42", "𝟙𝟚", "999", ""]
     # r4=list(map(str.isascii, l4))
     # print(r4)
+    
+#lowercase
+l5=["abc", "Abc", "aBC", "lower", ""]
+r5=list(map(str.islower, l5))
+print(r5)
