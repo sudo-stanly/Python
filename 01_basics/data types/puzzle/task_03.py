@@ -12,3 +12,8 @@
     # l3 = [" ", "\t", "nope", "yes", "", "\n"]
     # r3 = list(map(str.isspace, l3))
     # print(r3)
+    
+#Which strings are true title case?
+    # l4 = ["Ender's Game", "the Hobbit", "War and Peace", "Gone With The Wind", ""]
+    # r4 = list(map(str.istitle, l4))
+    # print(r4)
