@@ -22,3 +22,8 @@
     # l5=["abc", "Abc", "aBC", "lower", ""]
     # r5=list(map(str.islower, l5))
     # print(r5)
+    
+#uppercase
+    # l6=["LOUD", "Loud", "up", "UP", ""]
+    # r6=list(map(str.isupper, l6))
+    # print(r6)
