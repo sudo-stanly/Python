@@ -7,3 +7,8 @@
     # l2 = ["apple", "Apple", "BANANA", "banana", "Cherry", ""]
     # r2 = list(map(str.islower, l2))
     # print(r2)
+    
+#Which strings contain only whitespace?
+    # l3 = [" ", "\t", "nope", "yes", "", "\n"]
+    # r3 = list(map(str.isspace, l3))
+    # print(r3)
