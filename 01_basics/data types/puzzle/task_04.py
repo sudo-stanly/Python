@@ -7,3 +7,8 @@
     # l2=["٢", "4.5", "5", "٩", "0", ""]
     # r2=list(map(str.isdecimal, l2))
     # print(r2)
+
+#fully numeric
+    # l3=["⑦", "123", "二", "5.0", "003", ""]
+    # r3=list(map(str.isnumeric, l3))
+    # print(r3)
