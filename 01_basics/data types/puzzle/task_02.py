@@ -19,3 +19,9 @@
     # for i in range(0, 5):
     #     if not (titles[i].istitle()):
     #         print(titles[i])
+    
+#[ALPHA]: A group of password fragments needs testing. Identify which fragments contain only letters, no numbers or symbols.
+    # fragments = ["Alpha", "123", "Test1", "clean", "🚀", ""]  # → ?
+    # for i in range(0, 5):
+    #     if(fragments[i].isalpha()):
+    #         print(fragments[i])
