@@ -12,3 +12,8 @@
     # l3=["⑦", "123", "二", "5.0", "003", ""]
     # r3=list(map(str.isnumeric, l3))
     # print(r3)
+    
+#ascii digits only
+    # l4=["123", "٧٨٩", "42", "𝟙𝟚", "999", ""]
+    # r4=list(map(str.isascii, l4))
+    # print(r4)
