@@ -17,3 +17,8 @@
     # l4 = ["Ender's Game", "the Hobbit", "War and Peace", "Gone With The Wind", ""]
     # r4 = list(map(str.istitle, l4))
     # print(r4)
+    
+#["Python3", "Python", "123", "Code", "", "AI"]
+    # l5 = ["Python3", "C++", "C", "Ruby", "", "AI", "", "Rust", "Golang", "Java", "/|/10--_|", "Javascript", "Php", "Laravel", "React"]
+    # r5 = list(map(str.isalpha, l5))
+    # print(r5)
