@@ -19,6 +19,6 @@
     # print(r4)
     
 #lowercase
-l5=["abc", "Abc", "aBC", "lower", ""]
-r5=list(map(str.islower, l5))
-print(r5)
+    # l5=["abc", "Abc", "aBC", "lower", ""]
+    # r5=list(map(str.islower, l5))
+    # print(r5)
