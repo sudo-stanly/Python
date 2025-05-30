@@ -13,3 +13,9 @@
     # for i in range(0, 6):
     #     if(entries[i].isspace()):
     #         print(entries[i])
+    
+#[TITLE]:Each phrase below claims to be in “Title Case”. Use the appropriate method to reveal who’s lying.
+    # titles = ["The Matrix", "lord Of The Rings", "A Beautiful Mind", "Catch-22", ""]
+    # for i in range(0, 5):
+    #     if not (titles[i].istitle()):
+    #         print(titles[i])
