@@ -34,6 +34,6 @@
     # print(r7)
     
  #alphabetic characters
-l8=["Code", "code123", "", "Python", ""]
-r8=list(map(str.isalpha, l8))
-print(r8)
+    # l8=["Code", "code123", "", "Python", ""]
+    # r8=list(map(str.isalpha, l8))
+    # print(r8)
