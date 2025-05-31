@@ -42,3 +42,8 @@
     # l9=["Python3", "Code#", "123", "Clean", ""]
     # r9=list(map(str.isalnum, l9))
     # print(r9)
+    
+#whitespace
+    # l10=["   ", "\n", " ", "text", "", "\t"]
+    # r10=list(map(str.isspace, l10))
+    # print(r10)
