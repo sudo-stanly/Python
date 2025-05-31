@@ -47,3 +47,8 @@
     # l10=["   ", "\n", " ", "text", "", "\t"]
     # r10=list(map(str.isspace, l10))
     # print(r10)
+    
+#All strings that are lowercase and alphabetic
+    # l11 = ["python", "PYTHON", "py123", "code", "React", ""]
+    # r11 = list(filter(lambda s: s.islower() and s.isalpha(), l11))
+    # print(r11)
