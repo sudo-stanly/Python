@@ -32,3 +32,8 @@
     # l7=["Star Wars", "the Empire Strikes Back", "Return Of The Jedi", "A New Hope", ""]
     # r7=list(map(str.istitle, l7))
     # print(r7)
+    
+ #alphabetic characters
+l8=["Code", "code123", "", "Python", ""]
+r8=list(map(str.isalpha, l8))
+print(r8)
