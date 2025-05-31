@@ -39,6 +39,6 @@
     # print(r8)
     
 #alphanumeric
-l9=["Python3", "Code#", "123", "Clean", ""]
-r9=list(map(str.isalnum, l9))
-print(r9)
+    # l9=["Python3", "Code#", "123", "Clean", ""]
+    # r9=list(map(str.isalnum, l9))
+    # print(r9)
