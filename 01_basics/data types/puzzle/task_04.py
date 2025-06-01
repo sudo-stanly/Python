@@ -65,6 +65,6 @@
     # print(r13)
     
 #strings that start with PY
-l14 = ["Python", "PyCharm", "python", "Java", "Py", ""]
-r14 = list(filter(lambda x: "Py" in x, l14))
-print(r14)
+    # l14 = ["Python", "PyCharm", "python", "Java", "Py", ""]
+    # r14 = list(filter(lambda x: "Py" in x, l14))
+    # print(r14)
