@@ -60,6 +60,6 @@
     # print(r12)
     
 #ascii
-l13=["ASCII", "Δ", "hello", "世界", "123", ""]
-r13=list(map(str.isascii, l13))
-print(r13)
+    # l13=["ASCII", "Δ", "hello", "世界", "123", ""]
+    # r13=list(map(str.isascii, l13))
+    # print(r13)
