@@ -55,6 +55,6 @@
     
     
 #printable?
-l12=["Hello", "\n", "Visible", "...", "", "\x0b"]
-r12=list(map(str.isprintable, l12))
-print(r12)
+    # l12=["Hello", "\n", "Visible", "...", "", "\x0b"]
+    # r12=list(map(str.isprintable, l12))
+    # print(r12)
