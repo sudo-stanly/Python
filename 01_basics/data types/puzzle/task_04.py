@@ -52,3 +52,9 @@
     # l11 = ["python", "PYTHON", "py123", "code", "React", ""]
     # r11 = list(filter(lambda s: s.islower() and s.isalpha(), l11))
     # print(r11)
+    
+    
+#printable?
+l12=["Hello", "\n", "Visible", "...", "", "\x0b"]
+r12=list(map(str.isprintable, l12))
+print(r12)
