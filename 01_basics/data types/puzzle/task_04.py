@@ -63,3 +63,8 @@
     # l13=["ASCII", "Δ", "hello", "世界", "123", ""]
     # r13=list(map(str.isascii, l13))
     # print(r13)
+    
+#strings that start with PY
+l14 = ["Python", "PyCharm", "python", "Java", "Py", ""]
+r14 = list(filter(lambda x: "Py" in x, l14))
+print(r14)
