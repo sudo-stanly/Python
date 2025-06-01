@@ -58,3 +58,8 @@
     # l12=["Hello", "\n", "Visible", "...", "", "\x0b"]
     # r12=list(map(str.isprintable, l12))
     # print(r12)
+    
+#ascii
+l13=["ASCII", "Δ", "hello", "世界", "123", ""]
+r13=list(map(str.isascii, l13))
+print(r13)
